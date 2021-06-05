@@ -6,9 +6,9 @@ Pewlett Hackard is worried about the "Silver Tsunami" as many of their current e
 ## Resources:
 
 Data Source: 
-- [retirement_titles.csv](Data/retirement_titles.csv), 
-- [unique_titles.csv](Data/unique_titles.csv), 
-- [retiring_titles.csv](Data/retiring_titles.csv), 
+- [retirement_titles.csv](Data/retirement_titles.csv)
+- [unique_titles.csv](Data/unique_titles.csv)
+- [retiring_titles.csv](Data/retiring_titles.csv)
 - [mentorship_eligibilty.csv](Data/mentorship_eligibilty.csv)
 - [mentorship_eligibility_inc.csv](Data/mentorship_eligibility_inc.csv)
 
