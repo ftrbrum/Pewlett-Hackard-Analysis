@@ -5,7 +5,11 @@ Pewlett Hackard is worried about the "Silver Tsunami" as many of their current e
 
 ## Resources:
 
-Data Source: [retirement_titles.csv](Data/retirement_titles.csv), [unique_titles.csv](Data/unique_titles.csv), [retiring_titles.csv](Data/retiring_titles.csv), [mentorship_eligibilty.csv](mentorship_eligibilty.csv)
+Data Source: 
+[retirement_titles.csv](Data/retirement_titles.csv), 
+[unique_titles.csv](Data/unique_titles.csv), 
+[retiring_titles.csv](Data/retiring_titles.csv), 
+[mentorship_eligibilty.csv](mentorship_eligibilty.csv)
  
 Software: PostgreSQL v13.3, pgAdmin 4 v5.3
  
@@ -13,10 +17,16 @@ Code: [Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql)
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+![retirement_titles.png](Images/retirement_titles.png)
 
-- What can you conclude about the Outcomes based on Goals?
 
-- What are some limitations of this dataset?
+![unique_titles.png](Images/unique_titles.png)
 
-- What are some other possible tables and/or graphs that we could create?
+
+![retiring_titles.png](Images/retiring_titles.png)
+
+
+![mentorship_eligibilty.png](Images/mentorship_eligibilty.png)
+
+
+## Summary
