@@ -58,3 +58,34 @@ ORDER BY emp_no ASC, to_date DESC;
 SELECT COUNT(*) FROM mentorship_eligibilty
 --1549
 SELECT * FROM mentorship_eligibilty
+
+SELECT COUNT(me.emp_no), me.title
+FROM mentorship_eligibilty AS me
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	t.title
+INTO mentorship_eligibility_inc
+FROM employees AS e
+INNER JOIN dept_employees AS de
+	ON e.emp_no = de.emp_no
+INNER JOIN titles AS t
+	ON e.emp_no = t.emp_no
+WHERE (de.to_date = '9999-01-01')
+	 AND (e.birth_date BETWEEN '1965-01-01' AND '1995-12-31')
+ORDER BY emp_no ASC, to_date DESC;
+
+SELECT COUNT(*) FROM mentorship_eligibility_inc
+--
+SELECT * FROM mentorship_eligibility_inc
+
+SELECT COUNT(mei.emp_no), mei.title
+FROM mentorship_eligibilty_increase AS me
+GROUP BY title
+ORDER BY COUNT(title) DESC;
