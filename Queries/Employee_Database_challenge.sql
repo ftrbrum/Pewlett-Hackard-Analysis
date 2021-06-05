@@ -34,6 +34,10 @@ FROM unique_titles AS ut
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
+SELECT COUNT(*) FROM retiring_titles
+--7
+SELECT * FROM retiring_titles
+
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -51,3 +55,6 @@ WHERE (de.to_date = '9999-01-01')
 	 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no ASC, to_date DESC;
 
+SELECT COUNT(*) FROM mentorship_eligibilty
+--1549
+SELECT * FROM mentorship_eligibilty
