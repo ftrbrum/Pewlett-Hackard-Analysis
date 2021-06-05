@@ -34,11 +34,14 @@ Code: [Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql)
 ## Summary
 
 - The "Silver Tsunami" coming to Pewlett Hackard will have 90,398 employees set to retire in the near future.  Senior Engineer and Senior Staff will be the highest impacted job titles with both having over 28,000 employees ready to retire soon.
+
 ![retiring_titles.png](Images/retiring_titles.png)
 
 
 - I believe Pewllet Packard needs to increase the qualifications needed to mentor the next generation of employees.  As it stands there are 1549 employees eligible to mentor the next generation of 90,398 employees entering the workforce.  This is less than 1.8% of mentors available for new hires.
+
 ![mentor_titles.png](Images/mentor_titles.png)
 
 - If the qualifications to be included in the Mentorship Program increases by 6 months there will be an extra 10,768 employees that are eligible to participate.  That is an increase of 695%.
+
 ![mentor_titles_inc.png](Images/mentor_titles_inc.png)
