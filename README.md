@@ -45,3 +45,7 @@ Code: [Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql)
 - If the qualifications to be included in the Mentorship Program increases by 6 months there will be an extra 10,768 employees that are eligible to participate.  That is an increase of 695%.
 
 ![mentor_titles_inc.png](Images/mentor_titles_inc.png)
+
+- I also think that chosing mentors based on age is a bad idea.  You could have an employee be the right age but only have 2 years with the company.  I have created a table called [years_of_service_eligibilty.csv](Data/years_of_service_eligibilty.csv) that shows the amount of days every employee with 25 to 15 years of working with Pewlett-Hackard.
+
+![days_of_service.png](Images/days_of_service.png)
